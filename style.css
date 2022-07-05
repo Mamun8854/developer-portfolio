@@ -1,0 +1,64 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: justify;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 80px;
+}
+.first-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+.title-name{
+    color: tomato;
+}
+.half-width{
+    width: 50%;
+    margin: 5%;
+   
+}
+.half-width img{
+    width: 80%;
+}
+.hire-me{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 8px;
+    font-weight: 700;
+}
+.second-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.resume-link{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(tomato , red);
+    font-weight: 700;
+    color: white;
+    border-radius: 8px;
+}
+#experience-id{
+    margin-left: 5%;
+}
+.experience-title{
+    color: tomato;
+}
+.experience-shadow{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 50px rgb(111, 19, 3);
+    border-radius: 15px;
+}
+.footer{
+    text-align: center;
+}
